@@ -1,0 +1,90 @@
+*{
+    outline: none;
+    text-decoration: none;
+}
+
+.nav-pills-custom>li>a {
+	color: lightgrey;
+}
+
+.nav-pills-custom>li>a:focus,
+.nav-pills-custom>li>a:hover {
+	background: none;
+	color: grey;
+}
+
+.panel-custom>.panel-heading {
+	background: none;
+	border-bottom: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #337AB7;
+}
+.form-control-nav{
+	background-color:#F0FFFF;
+  border: lightgrey solid 1px;
+	border-radius:15px;
+}
+body{
+	background-color: #F0FFFF;
+}
+.navbar-default .navbar-collapse, .navbar-default{
+background-color: white;
+}
+.panel-footer{
+	background-color: lightcyan;
+}
+.well{
+	background-color: lightcyan;
+}
+
+a{
+	color:#60A6C1;
+}
+
+div.panel-heading{
+	padding-top:15px;
+	padding-bottom: 0px;
+}
+.form-control-feedback{
+	line-height:27px;
+}
+.panel-info{
+	border:1px lightgrey solid;
+}
+
+.read{
+    min-width: 50px;
+    min-height: 20px;
+    width: 50%;
+    height: 30px;
+    max-width: 200px;
+    max-height: 50px;
+    margin: 2% 25% 0% 25%;
+    padding: 0% 4% 4% 4%;
+    border-radius: 15px;
+    background-color: #337AB7;
+    font-family:monospace;
+    font-size: 20px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.fio{
+    margin:5% 0% 5% 28%;
+}
+
+.mail{
+    margin:5% 0% 5% 28%;
+    font-weight: bold;
+    text-decoration: inherit;
+}
+
+.ava{
+    min-width: 50px;
+    min-height: 50px;
+    width: 50%;
+    height: 20%;
+    margin: -15% 25% -10% 25%;
+}
